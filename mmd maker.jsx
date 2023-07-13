@@ -606,7 +606,7 @@ var praxescript = (function () {
             };
 
             glassTwo.onClick = function(){
-                  
+                  app.beginUndoGroup("glass2");
                   var Path = $.fileName ;
                   var realPath = Path.slice(0,-18);
                   var mycomposition = app.project.activeItem;
@@ -627,13 +627,13 @@ var praxescript = (function () {
 
             glassThree.onClick = function(){
                   
+                  app.beginUndoGroup("glass3");
                         var Path = $.fileName ;
                         var realPath = Path.slice(0,-18);
                         var mycomposition = app.project.activeItem;
                         var myLayer = mycomposition.selectedLayers[0];
                         var pfPath = realPath + "/assetsscript/don't%20touch%20folder/glass3.aep";
                         var myPf = app.project.importFile(new ImportOptions(File(pfPath)));
-                  app.beginUndoGroup("glass3");
                         for(var i= 1; i<= app.project.numItems; i++){
                         if(app.project.item(i).name == "glass3"){
                         var mycomp = app.project.item(i);
