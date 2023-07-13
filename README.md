@@ -16,8 +16,6 @@ Once the script is in the scripts folder, you can run it from within After Effec
 
 To use MMD Maker, simply run the script from within After Effects. This will open a panel with various buttons for adding 3D elements to your composition. You can also use the file browser to select files to import into your composition.
 
-GitHub Copilot: Sure, here's an explanation of each functionality in the code excerpt:
-
 ### Add 3D Cube
 
 This function adds a 3D cube to the active composition. It creates a new solid layer with the dimensions of the cube and applies the "CC Sphere" effect to it to make it look like a cube.
