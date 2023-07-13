@@ -1,5 +1,7 @@
 # MMD Maker
 
+<img src="img/img.png" width="200">
+
 MMD Maker is a script for Adobe After Effects that adds various 3D elements to your composition, such as cubes, nulls, cameras, and more. It also includes a file browser for selecting files to import into your composition.
 
 ## Installation
